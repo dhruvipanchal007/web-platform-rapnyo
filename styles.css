@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.dalert {
+  position: sticky;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+}
+.dalert-primary {
+  color: #004085;
+  border-color: #b8daff;
+  background-color: #cce5ff;
+}
+.dalert-secondary {
+  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+}
+.dalert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.self {
+  position: relative;
+  text-align: left;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.self-primary {
+  background-color: #383d41;
+  border: 1px solid #b8daff;
+  color: #f2f2f2;
+}
+.self-secondary {
+  color: #f2f2f2;
+  background-color: #004085;
+  border: 1px solid transparent;
+}
+.self-success {
+  color: #f2f2f2;
+  background-color: lightcoral;
+  border: 1px solid turquoise;
+}
+.btn {
+  display: inline-block;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 6px 12px;
+  vertical-align: middle;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.dbtn-primary {
+  background-color: blue;
+  border-color: transparent;
+  color: white;
+}
+.dbtn-secondary {
+  color: white;
+  background-color: #383d41;
+  border-color: #383d41;
+}
+.dbtn-success {
+  color: white;
+  background-color: #155724;
+  border-color: #155724;
+}
+.dbtn-danger {
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.dbtn-warning {
+  color: black;
+  background-color: yellow;
+  border-color: yellow;
+}
+.dbtn-outlineprimary {
+  color: blue;
+  border-color: blue;
+}
+.dbtn-outlinesecondary {
+  color: #383d41;
+  border-color: #383d41;
+}
+.dbtn-outlinedanger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.dbtn-outlinesuccess {
+  color: #155724;
+  border-color: #155724;
+}
+.dbtn-outlinewarning {
+  color: yellow;
+  border-color: yellow;
+}
+.dbtn-pink {
+  background-color: pink;
+}
+.form {
+  background-color: #e2e3e5;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 12px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  display: inline-block;
+}
